@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button component  with disable 1`] = `
+<button
+  className="css-1avd6i"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  disable button
+</button>
+`;
+
+exports[`button component  with loading  1`] = `
+<button
+  className="css-1avd6i"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <div
+    className="css-1hailib"
+  >
+    <img
+      alt="picture"
+      className="css-1ki26gy"
+      src="loading/loading.gif"
+    />
+  </div>
+</button>
+`;
+
+exports[`button component render correctly 1`] = `
+<button
+  className="css-1avd6i"
+  disabled={false}
+  onClick={[Function]}
+  type="primary"
+>
+  sample button
+</button>
+`;
